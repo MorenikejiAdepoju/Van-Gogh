@@ -1,0 +1,100 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#nav-list {
+    background-color: black;
+    font-weight: bold;
+}
+
+#nav-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-list li {
+    display: inline;
+}
+
+#nav-list a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.main-header,
+.header-image h2 {
+    font-family: 'Acme', sans-serif;
+}
+
+.main-header {
+    background-color: darkcyan;
+}
+
+#header-image {
+    background-image: url('../images/vangogh.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gray;
+    min-height: 300px;
+}
+
+#header-image h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 550px;
+    color: white;
+}
+
+.frame {
+    padding: 50px;
+}
+
+.images {
+    width: 50%;
+    padding-top: 0px;
+}
+
+.images2 {
+    width: 50%;
+    float: right;
+    padding-top: 20px;
+}
+
+#caption {
+    float: right;
+    text-align: center;
+    width: 40%;
+    padding-top: 30px;
+}
+
+#caption2 {
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding-top: 30px;
+}
+
+#main-footer {
+    background: black;
+    color: wheat;
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
